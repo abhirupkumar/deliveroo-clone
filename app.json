@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Deliveroo",
+    "slug": "deliveroo-clone-apk",
+    "description": "This is deliveroo clone apk.",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/deliveroo-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/deliveroo-logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.abhirup.deliveroocloneapk"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
